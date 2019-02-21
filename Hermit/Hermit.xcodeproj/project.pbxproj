@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C15190B221EEE0A00226042 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15190A221EEE0A00226042 /* Shell.swift */; };
 		1C16A430221EACE400D0DF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C16A42F221EACE400D0DF57 /* AppDelegate.swift */; };
 		1C16A432221EACE400D0DF57 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C16A431221EACE400D0DF57 /* GameScene.sks */; };
 		1C16A434221EACE400D0DF57 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C16A433221EACE400D0DF57 /* Actions.sks */; };
@@ -15,9 +16,12 @@
 		1C16A43B221EACE400D0DF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C16A439221EACE400D0DF57 /* Main.storyboard */; };
 		1C16A43D221EACE700D0DF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C16A43C221EACE700D0DF57 /* Assets.xcassets */; };
 		1C16A440221EACE700D0DF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C16A43E221EACE700D0DF57 /* LaunchScreen.storyboard */; };
+		1C16A448221EB4F900D0DF57 /* Hermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C16A447221EB4F900D0DF57 /* Hermit.swift */; };
+		1C16A44A221ECA6800D0DF57 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C16A449221ECA6800D0DF57 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C15190A221EEE0A00226042 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
 		1C16A42C221EACE400D0DF57 /* Hermit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hermit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C16A42F221EACE400D0DF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C16A431221EACE400D0DF57 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		1C16A43C221EACE700D0DF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C16A43F221EACE700D0DF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C16A441221EACE700D0DF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C16A447221EB4F900D0DF57 /* Hermit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hermit.swift; sourceTree = "<group>"; };
+		1C16A449221ECA6800D0DF57 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,14 @@
 		1C16A42E221EACE400D0DF57 /* Hermit */ = {
 			isa = PBXGroup;
 			children = (
+				1C16A437221EACE400D0DF57 /* GameViewController.swift */,
 				1C16A42F221EACE400D0DF57 /* AppDelegate.swift */,
 				1C16A431221EACE400D0DF57 /* GameScene.sks */,
 				1C16A433221EACE400D0DF57 /* Actions.sks */,
 				1C16A435221EACE400D0DF57 /* GameScene.swift */,
-				1C16A437221EACE400D0DF57 /* GameViewController.swift */,
+				1C16A447221EB4F900D0DF57 /* Hermit.swift */,
+				1C15190A221EEE0A00226042 /* Shell.swift */,
+				1C16A449221ECA6800D0DF57 /* Common.swift */,
 				1C16A439221EACE400D0DF57 /* Main.storyboard */,
 				1C16A43C221EACE700D0DF57 /* Assets.xcassets */,
 				1C16A43E221EACE700D0DF57 /* LaunchScreen.storyboard */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C15190B221EEE0A00226042 /* Shell.swift in Sources */,
 				1C16A436221EACE400D0DF57 /* GameScene.swift in Sources */,
 				1C16A438221EACE400D0DF57 /* GameViewController.swift in Sources */,
+				1C16A448221EB4F900D0DF57 /* Hermit.swift in Sources */,
+				1C16A44A221ECA6800D0DF57 /* Common.swift in Sources */,
 				1C16A430221EACE400D0DF57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94C49VQS6W;
 				INFOPLIST_FILE = Hermit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94C49VQS6W;
 				INFOPLIST_FILE = Hermit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
